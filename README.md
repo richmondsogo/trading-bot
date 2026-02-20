@@ -1,9 +1,8 @@
 # Trading Bot Project
 
-Market: (choose one)
-- Forex (e.g., EURUSD)
-or
-- Crypto (e.g., BTCUSDT)
+Market: 
+- Forex (BTCUSD)
+
 
 Goal:
 Test simple moving average crossover strategy.
