@@ -7,7 +7,7 @@ Market:
 Goal:
 Test simple moving average crossover strategy.
 
-Next Steps:
+The bot will:
 - Download historical data
 - Build baseline strategy
 - Evaluate performance
