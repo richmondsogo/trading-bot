@@ -13,7 +13,8 @@ class DummyStrategy(Strategy):
 
 
 if __name__ == "__main__":
-    bt = Backtest(GOOG, DummyStrategy, cash=10000, commission=0.002)
+    bt = Backtest(GOOG, DummyStrategy, cash=10000, commission=0.0025)
 
     stats = bt.run()
     print(stats)
+    stats.to_csv("backtest_stats.csv")

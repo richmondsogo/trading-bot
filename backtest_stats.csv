@@ -1,0 +1,50 @@
+,0
+Start,2004-08-19 00:00:00
+End,2013-03-01 00:00:00
+Duration,3116 days 00:00:00
+Exposure Time [%],0.0
+Equity Final [$],10000.0
+Equity Peak [$],10000.0
+Return [%],0.0
+Buy & Hold Return [%],703.4582419772772
+Return (Ann.) [%],0.0
+Volatility (Ann.) [%],0.0
+CAGR [%],0.0
+Sharpe Ratio,
+Sortino Ratio,
+Calmar Ratio,
+Alpha [%],0.0
+Beta,0.0
+Max. Drawdown [%],-0.0
+Avg. Drawdown [%],
+Max. Drawdown Duration,
+Avg. Drawdown Duration,
+# Trades,0
+Win Rate [%],
+Best Trade [%],
+Worst Trade [%],
+Avg. Trade [%],
+Max. Trade Duration,
+Avg. Trade Duration,
+Profit Factor,
+Expectancy [%],
+SQN,
+Kelly Criterion,
+_strategy,DummyStrategy
+_equity_curve,"             Equity  DrawdownPct  DrawdownDuration
+2004-08-19  10000.0          0.0               NaN
+2004-08-20  10000.0          0.0               NaN
+2004-08-23  10000.0          0.0               NaN
+2004-08-24  10000.0          0.0               NaN
+2004-08-25  10000.0          0.0               NaN
+...             ...          ...               ...
+2013-02-25  10000.0          0.0               NaN
+2013-02-26  10000.0          0.0               NaN
+2013-02-27  10000.0          0.0               NaN
+2013-02-28  10000.0          0.0               NaN
+2013-03-01  10000.0          0.0               NaN
+
+[2148 rows x 3 columns]"
+_trades,"Empty DataFrame
+Columns: [Size, EntryBar, ExitBar, EntryPrice, ExitPrice, SL, TP, PnL, Commission, ReturnPct, EntryTime, ExitTime, Duration, Tag]
+Index: []"
