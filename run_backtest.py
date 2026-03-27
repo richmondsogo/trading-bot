@@ -3,8 +3,8 @@ import numpy as np
 from backtesting import Backtest, Strategy
 
 
-data = pd.read_csv("./data/btc_data_reordered.csv", parse_dates=["Date"], index_col="Date")
-data = data.loc["2026-01-01":"2026-03-20"]  # Ensure we have the same date range as the original download
+data = pd.read_csv("./data/btc_data_reordered.csv", parse_dates=True, index_col=0)
+data = data.loc["2025-01-01":"2025-03-20"]  # Ensure we have the same date range as the original download
 
 class OpeningRangeBreakout(Strategy):
     def init(self):
@@ -12,8 +12,19 @@ class OpeningRangeBreakout(Strategy):
         self.opening_range_low = self.data.Low.rolling(20).min()
 
     def next(self):
-        print(self.data)
-
+        t = self.data.index[-1]
+        current_bar_date = t.date()
+        
+        print(f"Current bar date: {current_bar_date}, Opening Range High: {self.opening_range_high[-1]}, Opening Range Low: {self.opening_range_low[-1]}")
+        
+        
+        
+        
+        
+        
+        
+        
+        
 # # ── Indicator functions (plain named functions, no lambdas) ───────────────────
 
 
